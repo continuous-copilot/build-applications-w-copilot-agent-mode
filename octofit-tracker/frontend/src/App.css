@@ -1,0 +1,129 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #4682b4; /* Steel blue */
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+nav img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f0f8ff; /* Light blue */
+  text-decoration: underline;
+}
+
+/* Component styles */
+h1 {
+  color: #00008b; /* Dark blue */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Table styles */
+table {
+  width: 90%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1rem;
+}
+
+table th {
+  background-color: #4682b4; /* Steel blue */
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f0f8ff; /* Light blue */
+}
+
+table tr:hover {
+  background-color: #e0ffff; /* Light cyan */
+}
+
+/* Button styles */
+button {
+  background-color: #4682b4; /* Steel blue */
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5a9bd4; /* Lighter steel blue */
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb;
+}
+
+/* Logo styles */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
