@@ -144,7 +144,7 @@ mongo --eval "db = db.getSiblingDB('monafit_db'); printjson(db.getCollectionName
 
 ### Sample settings.py
 
-```json
+```python
 # FILE: monafit_tracker/settings.py
 
 """
